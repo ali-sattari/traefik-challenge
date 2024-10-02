@@ -89,3 +89,11 @@ spec:
             name: traefik-jobs
             port:
               number: 8888
+---
+apiVersion: v1
+kind: Secret
+metadata:
+  name: helmsman
+type: Opaque
+data:
+  helmsman: dcc9c530767c102764d45d621fc92317

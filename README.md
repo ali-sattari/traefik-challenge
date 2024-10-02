@@ -55,3 +55,5 @@ But remember, it's a secret 🤫</br>
 </html>
 ```
 
+### 3: let's dig into the docker image
+After hours digging into the binary for some hours I didn't find anything. Then I went to look at the image details on [docker hub](https://hub.docker.com/layers/traefik/jobs/helmsman/images/sha256-4e5b3dc8dbdf40b89969dbccbce84809a649b056e9793a9fc1a7613f13fe46fb?context=explore) and found a peculiar `LABEL` there, I added that as a K8S secret and the out put changed to an Iframe leading to a Google form!
